@@ -4,6 +4,6 @@ int main() {
     char character;
     printf("A single character :");
     scanf("%c", &character );
-    printf("%c\n", character)
+    printf("%c\n", character);
     return 0;
 }
