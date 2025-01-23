@@ -2,8 +2,10 @@
 
 
 int main() {
-    int a,b;
+    int a,b,sum;
+
     scanf("%d %d", &a , &b);
-    printf("sum: %d", a+b);
+    a+b=sum;
+    printf("sum: %d", sum);
     return 0;
 }
