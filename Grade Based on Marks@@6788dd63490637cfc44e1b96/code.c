@@ -3,10 +3,10 @@ int main() {
    int a;
    scanf("%d");
    if (a>=90){
-    printf('A');
+    printf("A");
    }
    else if (a>=80) && (a<90){
-    printf('B');
+    printf("B");
    }
     return 0;
 }
