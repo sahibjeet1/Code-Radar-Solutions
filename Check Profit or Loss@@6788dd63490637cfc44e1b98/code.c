@@ -7,7 +7,7 @@ int main() {
    } else if(cost>sell){
     printf("Loss");
    }else{
-    printf("no loss");
+    printf("No Loss");
    }
     return 0;
 }
