@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    float a,b,result;
+    float a,b,c,result;
     char cal;
-    scanf("%f %f %c", &a, &b, &result);
+    scanf("%f %f %c %f", &a, &b, &c, &result);
     switch(cal){
         case '+':
         result = a+b;
