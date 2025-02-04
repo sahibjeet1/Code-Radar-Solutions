@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float a,b;
+    float a,b,c;
     char cal;
     scanf("%f %f %c", &a, &b, &c);
     switch(cal){
