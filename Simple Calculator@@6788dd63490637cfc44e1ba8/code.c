@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a,b,c;
-    char cal;
+    float a,b;
+    char c;
     scanf("%d %d %c", &a, &b, &c);
     switch(cal){
         case '+':
