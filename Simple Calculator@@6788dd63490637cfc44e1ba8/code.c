@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a,b, result;
+    int a,b,result;
     char opr;
     scanf("%d %d %c", &a, &b, &opr);
     
@@ -15,7 +15,7 @@ int main() {
         printf("%d");
     } else if (opr=='/')
     {
-        if(b!=2){
+        if(b!=0){
             result=a/b;
             printf("%d", a/b);
             {else 
@@ -26,7 +26,6 @@ int main() {
         printf("error");
     }
     }
-    
     printf("%d", &result);
 
     return 0;
