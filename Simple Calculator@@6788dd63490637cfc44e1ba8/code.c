@@ -6,18 +6,18 @@ int main() {
     
     if (opr=='+'){
         result= a+b;
-        printf("%d");
+        printf("%d", result);
     } else if (opr =='-') {
         result=a-b;
-        printf("%d");
+        printf("%d", result);
     } else if (opr=='*') {
         result=a*b;
-        printf("%d");
+        printf("%d", result);
     } else if (opr=='/')
     {
         if(b!=0){
             result=a/b;
-            printf("%d", a/b);
+            printf("%d", result);
             {else 
             printf("error");
         }
