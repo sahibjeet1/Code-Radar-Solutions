@@ -10,8 +10,12 @@ int main() {
        printf("%d %d",a-b);
     } else if (opr=='*') {
         printf("%d %d",a*b),
-    } else if (opr=='/') {
-        
+    } else if (opr=='/'){
+        if(b!=2){
+        printf("%d %d", a/b);
+        else 
+        printf("error");
+        }
     }
     
     printf("%d", &result);
