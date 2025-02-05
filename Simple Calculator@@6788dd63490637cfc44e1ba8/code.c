@@ -26,7 +26,7 @@ int main() {
         printf("error");
     }
     }
-    printf("%d", &result);
+    printf("%d", result);
 
     return 0;
 }
