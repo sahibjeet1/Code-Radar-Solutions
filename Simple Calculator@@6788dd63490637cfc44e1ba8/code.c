@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    float a,b,c,result=2;
+    float a,b,c,result;
     char cal;
-    scanf("%f %f %c %f", &a, &b, &c, &result);
+    scanf("%f %f %c %d", &a, &b, &c, &result);
     
     if (cal=='+') {
         result = a + b;
@@ -14,7 +14,7 @@ int main() {
         result = a * b;
     }
     
-    printf("%f", &result);
+    printf("%d", &result);
 
     return 0;
 }
