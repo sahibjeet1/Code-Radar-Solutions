@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main() {
-    float a,b,c,result;
-    char cal;
-    scanf("%d %d %c %d", &a, &b, &c, &result);
+    int a,b;
+    char opr;
+    scanf("%d %d %c", &a, &b, &opr);
     
-    if (cal=='+') {
-        result = a + b;
-    } else if (cal=='-') {
-        result = a - b;
-    } else if (cal=='/') {
-        result = a/b;
-    } else if (cal=='*') {
-        result = a * b;
+    if (opr=='+'){
+        printf("%d %d", a+b);
+    } else if (opr =='-') {
+       printf("%d %d",a-b);
+    } else if (opr=='*') {
+        printf("%d %d",a*b),
+    } else if (opr=='/') {
+        
     }
     
     printf("%d", &result);
