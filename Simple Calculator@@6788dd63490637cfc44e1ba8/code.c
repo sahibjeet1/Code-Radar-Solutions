@@ -17,7 +17,7 @@ int main() {
     {
         if(b!=2){
             result=a/b;
-            printf("%d %d", a/b);
+            printf("%d", a/b);
             {else 
             printf("error");
         }
