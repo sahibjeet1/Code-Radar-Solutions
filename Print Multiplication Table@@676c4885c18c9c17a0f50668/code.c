@@ -3,7 +3,7 @@
 int main(){
     int N,i;
     scanf("%d", &N);
-    for(i=1;i<=20;i++){
+    for(i=2;i<=20;i++){
         printf("2 x 1 = %d\n", i);
     }
 }
