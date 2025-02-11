@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int i;
-    for(i=1;i>=5;i++){
-        printf("%d", i);
+    int N;
+    scanf("%d",&N);
+    for(int i =1; i<=N; i++){
+        printf("%d",i);
     }
-    printf("%s", welcome());
     return 0;
 }
