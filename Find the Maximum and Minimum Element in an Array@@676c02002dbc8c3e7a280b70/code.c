@@ -5,8 +5,8 @@ int main(){
     scanf("%d", &n);
     int arr[n];
     scanf("%d", &arr[0]);
-    max=min=arr[0];
-    for(i=0;i<n;i++){
+    max =min =arr[0];
+    for(i=1;i<n;i++){
         scanf("%d", &arr[i]);
         if(arr[i]>max){
             max=arr[i];
