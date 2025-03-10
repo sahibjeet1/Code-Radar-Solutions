@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int n,evencount,oddcount;
+    int n,evencount=0,oddcount=0;
     scanf("%d",&n);
     int arr[n];
     scanf("%d", &arr[n]);
