@@ -1,7 +1,10 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int n;
+    int n,evensum=0,oddsum=0;
     scanf("%d", n);
-    arr[n]=
+    int arr[n];
+    scanf("%d", arr[n]);
+    
+
 }
