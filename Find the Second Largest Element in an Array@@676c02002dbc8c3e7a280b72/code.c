@@ -4,8 +4,8 @@ int main(){
     int n,max, secmax;
     scanf("%d", &n);
     int arr[n];
-    scanf("%d", &arr[n]);
     for(int i=0;i<n;i++){
+    scanf("%d", &arr[n]);
         if(arr[i]>max){
             max=arr[i];
         }
