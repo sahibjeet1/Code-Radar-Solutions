@@ -5,7 +5,10 @@ int main(){
     scanf("%d", &n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d", &arr[n]);
+        scanf("%d", &arr[i]);
+        if(arr[i]==arr[i]){
+            return -1;
+        }
         if(arr[i]>max){
             max=arr[i];
         }
