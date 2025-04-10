@@ -10,7 +10,7 @@ int primenum(){
     }
     return 1;
 }
-int main(
+int main(){
     int n, num;
     scanf("%d",&n);
     for(int i=0;i<=n;i++){
@@ -18,4 +18,4 @@ int main(
         printf("%d\n", primenum(num));
     }
 
-)
+}
